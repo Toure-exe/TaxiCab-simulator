@@ -1,7 +1,8 @@
+## Autori: Ismaila Toure & Taralli Giulio
+
 # TaxiCab-simulator
 (progetto di sistemi operativi) Simulazione di una città (matrice condivisa) in cui ci sono dei processi taxi che vanno in giro a soddisfare delle richiesta da parte di altri processi, portandoli a destinazione.
 
-## Autori: Ismaila Toure & Taralli Giulio
 
 # Processi SO_SOURCES:
 
@@ -11,7 +12,8 @@ correttamente inizializzati. Una volta assicurata la corretta generazione, i pro
 le proprie destinazioni, inviandole ai processi SO_TAXI grazie a una coda di messaggi.
 Il singolo processo SO_SOURCES genererà le sue destinazioni in un intervallo di tempo fisso da noi
 prestabilito.
-Processi SO_TAXI:
+
+# Processi SO_TAXI:
 Al momento della generazione degli SO_TAXI (ovvero il momento in cui generiamo le coordinate di
 generazione) i processi aspettano che tutti gli SO_TAXI e gli SO_SOURCES processi siano stati correttamente
 inizializzati.
