@@ -2,6 +2,7 @@
 
 # TaxiCab-simulator
 (progetto di sistemi operativi) Simulazione di una città (matrice condivisa) in cui ci sono dei processi taxi che vanno in giro a soddisfare delle richiesta da parte di altri processi, portandoli a destinazione.
+Uso di SystemV (SysV) per la comunicazione interprocesso.
 
 
 # Processi SO_SOURCES:
@@ -37,7 +38,7 @@ Quando un SO_TAXI si trova in una situazione di stallo, usiamo la system call ex
 processo.
 
 
-#Processo Master:
+# Processo Master:
 
 Il processo Master inizialmente legge i dati di configurazione dal file “configurazione.txt” analizza il numero
 di buchi e lo confronta con la grandezza della mappa. Se è possibile generare il numero di buchi richiesto il
