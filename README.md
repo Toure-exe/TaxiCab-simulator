@@ -1,5 +1,8 @@
 ## Autori: Ismaila Toure & Taralli Giulio
 
+
+NB: Si tratta della versione del programma con pochissima (purtroppo) modulazione del codice.
+
 # TaxiCab-simulator
 (progetto di sistemi operativi) Simulazione di una città (matrice condivisa) in cui ci sono dei processi taxi che vanno in giro a soddisfare delle richiesta da parte di altri processi, portandoli a destinazione.
 Uso di SystemV (SysV) per la comunicazione interprocesso.
